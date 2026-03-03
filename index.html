@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Reminder - Shatadal Roy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>💊 Medicine Reminder</h1>
+    <h3>Developed by Shatadal Roy</h3>
+
+    <!-- Add Medicine Form -->
+    <div class="form-section">
+        <input type="text" id="medicineName" placeholder="Medicine Name">
+        <input type="text" id="dosage" placeholder="Dosage (e.g., 1 Tablet)">
+        <input type="time" id="time">
+        <button onclick="addMedicine()">Add Reminder</button>
+    </div>
+
+    <!-- Medicine List -->
+    <div class="list-section">
+        <h2>Your Medicines</h2>
+        <ul id="medicineList"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
